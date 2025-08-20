@@ -11,3 +11,12 @@ const number = document.querySelectorAll(".numbers").forEach(function (item) {
     inputValue.innerText += e.target.innerHTML.trim();
   });
 });
+
+const calculate = document
+  .querySelectorAll(".operations")
+  .forEach(function (item) {
+    item.addEventListener("click", function (e) {
+      console.log(e.target.innerHTML);
+      
+    });
+  });
